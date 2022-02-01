@@ -12071,3 +12071,12 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: inherit;
+  touch-action: inherit;
+  -webkit-user-select: inherit;
+  -moz-user-select: inherit;
+  -ms-user-select: inherit;
+  user-select: inherit;
+}
